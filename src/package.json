@@ -1,0 +1,10 @@
+{
+  "name": "dialtone",
+  "version": "1.0.0",
+  "description": "Dialtone - Unified Cellular Communication Desktop Suite",
+  "main": "main.cjs",
+  "author": "Antigravity",
+  "scripts": {
+    "start": "electron ."
+  }
+}

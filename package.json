@@ -1,0 +1,35 @@
+{
+  "name": "dialtone",
+  "version": "1.0.0",
+  "description": "Dialtone — Desktop cellular communication suite for USB modems (Calls, SMS, USSD, Audio).",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "backend": "python src/backend/modem_bridge.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papa24-afk/Dialtone.git"
+  },
+  "keywords": [
+    "cellular",
+    "modem",
+    "huawei",
+    "at-commands",
+    "ussd",
+    "sms",
+    "voice-over-usb",
+    "pcm-audio",
+    "electron",
+    "windows"
+  ],
+  "author": "papa24-afk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/papa24-afk/Dialtone/issues"
+  },
+  "homepage": "https://github.com/papa24-afk/Dialtone#readme",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

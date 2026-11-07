@@ -1,0 +1,60 @@
+# Dialtone .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python runtime & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+build/
+build-onefile/
+dist/
+dist-onefile/
+
+# Standalone Binaries and Packed Releases
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.zip
+*.7z
+*.tar.gz
+CellularPC-Release/
+
+# Databases and Local Storage (Contains personal contacts/call history)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+switchboard.db
+cellular.db
+
+# Log files and diagnostics
+*.log
+backend.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables & Private Credentials
+.env
+.env.local
+.env.*.local
