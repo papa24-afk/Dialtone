@@ -19,7 +19,15 @@ To maintain strict developer trust and technical integrity, **no mockups, simula
 | `07_ussd_terminal.png` | Interactive USSD session terminal with balance inquiry response | USSD Console (*124# query) | Telecel Ghana Baseband Network | *Pending User Upload* |
 | `08_audio_settings.png` | Real-time PCM audio routing diagnostics and waveOut/waveIn device selection | Audio Tab | Realtek Audio + USB COM6 Audio | *Pending User Upload* |
 | `09_device_manager.png` | Windows Device Manager showing `usbser` bindings for COM7 and COM6 | Windows Device Manager | Windows 11 Build 22631 | *Pending User Upload* |
-| `10_hardware_photo.jpg` | Physical photograph of the connected Huawei K4201 USB dongle with SIM | Physical Hardware Setup | HP EliteBook x360 1040 G7 | *Pending User Upload* |
+| `huawei_k4201_hardware.jpg` | Physical photograph of the Huawei K4201 (Vodafone K4201-I) USB dongle | Physical Hardware Proof | HP EliteBook x360 1040 G7 | **Verified & Present** |
+
+### Verified Hardware Photograph
+
+<p align="center">
+  <img src="huawei_k4201_hardware.jpg" alt="Huawei K4201 / Vodafone K4201-I USB Cellular Dongle" width="360" />
+  <br />
+  <em>Figure 1: Physical Huawei K4201 (Vodafone K4201-I) HSPA+ USB stick used for hardware verification on Telecel Ghana.</em>
+</p>
 
 ---
 

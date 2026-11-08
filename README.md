@@ -149,6 +149,13 @@ Every feature listed below has been verified and confirmed against physical cell
 To maintain strict scientific and technical accuracy, this repository documents verified physical results alongside unconfirmed capabilities.
 
 ### 1. Physical Hardware Setup
+
+<p align="center">
+  <img src="docs/screenshots/huawei_k4201_hardware.jpg" alt="Huawei K4201 / Vodafone K4201-I USB Dongle" width="280" />
+  <br />
+  <em>Figure: Physical Huawei K4201 (Vodafone K4201-I) HSPA+ USB Modem used for hardware verification.</em>
+</p>
+
 - **Host Laptop:** HP EliteBook x360 1040 G7 (Intel Core i7, 16GB RAM, Windows 11 Pro 64-bit).
 - **USB Cellular Modem:** Huawei K4201 (Vodafone K4201-I HSPA+ USB Dongle).
 - **SIM Card:** Telecel Ghana (Vodafone Ghana) 3G/HSPA+ active SIM.
@@ -272,6 +279,7 @@ All screenshots below represent the physical Dialtone interface:
 
 | View | Screenshot Placeholder | Status |
 | :--- | :--- | :---: |
+| **Hardware Photograph** | `docs/screenshots/huawei_k4201_hardware.jpg` | **Verified & Present** |
 | **Main Dashboard** | `docs/screenshots/01_main_interface.png` | *Pending Photographic Upload* |
 | **Active Telephony Dialer** | `docs/screenshots/03_dial_pad.png` | *Pending Photographic Upload* |
 | **Active Call Screen** | `docs/screenshots/04_active_call.png` | *Pending Photographic Upload* |

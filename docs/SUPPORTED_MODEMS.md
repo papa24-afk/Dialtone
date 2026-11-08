@@ -22,6 +22,12 @@ This document maintains the hardware compatibility list, chipset specifications,
 
 The **Huawei K4201** is the primary reference modem developed and tested with Dialtone.
 
+<p align="center">
+  <img src="screenshots/huawei_k4201_hardware.jpg" alt="Huawei K4201 / Vodafone K4201-I USB Dongle" width="280" />
+  <br />
+  <em>Figure 1: Verified Huawei K4201 (Vodafone K4201-I) HSPA+ USB Modem.</em>
+</p>
+
 ### Technical Profile
 - **Chipset:** HiSilicon Balong V3R2 / Qualcomm baseband.
 - **Form Factor:** USB 2.0 Dongle with standard SIM slot.
