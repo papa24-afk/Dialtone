@@ -1,0 +1,44 @@
+name: CI Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyserial
+        npm install
+
+    - name: Verify Backend Modules Compilation
+      run: |
+        python -m py_compile src/backend/audio_router.py
+        python -m py_compile src/backend/database.py
+        python -m py_compile src/backend/modem_bridge.py
+        python -m py_compile src/backend/test_sms_hardware.py
+        python -m py_compile src/backend/test_ussd_hardware.py
+        python -m py_compile src/backend/test_voice_at.py
+
+    - name: Validate Local SQLite Schema Initialization
+      run: |
+        python -c "import sys; sys.path.insert(0, 'src/backend'); from database import DatabaseManager; dm = DatabaseManager('test_ci.db'); print('DB Schema Initialized OK'); import os; os.remove('test_ci.db')"
